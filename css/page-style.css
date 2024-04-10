@@ -1,0 +1,391 @@
+.hero-contain {
+  background-color: #f0f9ff;
+}
+
+.nav-location {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-left: 5px;
+}
+
+.nav-location p {
+  font-size: 1.4rem;
+}
+
+.nav-location p a {
+  text-decoration: none;
+}
+
+.nav-location p a:hover {
+  text-decoration: underline;
+}
+
+/* ***************************************** */
+/* Full Stack - Page Hero */
+/* ***************************************** */
+
+/* working */
+.page-form {
+  margin: 0 5rem !important;
+}
+
+.page-hero {
+  display: grid;
+  gap: 9rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-bottom: 5rem !important;
+}
+
+.fsd-head {
+  font-size: 4.9rem !important;
+}
+
+.approved-box {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+  height: 70px;
+  width: 210px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b6ccea;
+  border-radius: 5px;
+  box-shadow: 1px 0px 8.7px -3px rgba(0, 0, 0, 0.25);
+}
+
+/* working */
+
+.oracle-logo {
+  margin-left: 3rem;
+}
+
+.approved-box img {
+  width: 100px;
+}
+
+.approved-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2b2f8b;
+  letter-spacing: 0.75px;
+  text-decoration: none;
+}
+
+.watch-video-icon {
+  font-size: 5rem;
+  color: #2b2f8b;
+}
+
+.page-watch-yt {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ***************************************** */
+/* Program Overview SEC */
+/* ***************************************** */
+
+.over-view-con {
+  font-size: 1.8rem;
+  margin-bottom: 1.4rem;
+  line-height: 1.4 !important;
+}
+
+/* working */
+.prog-over-content {
+  list-style: disc;
+}
+
+.prog-over-heading {
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* ************************************* */
+/* download Syllabus SEC */
+/* ************************************* */
+
+.syllabus-contain {
+}
+
+.sylb-text {
+  color: #fff;
+}
+
+.syl-dwld-btn {
+  width: 300px;
+  height: 50px;
+  align-self: center;
+}
+
+.downl-heading {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.downl-description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.downl-btn {
+  justify-self: center;
+  background-color: #fff;
+  color: #2b2f8b !important;
+  font-weight: 500;
+  margin-right: none;
+  padding: 1.2rem 2.6rem !important;
+}
+
+.downl-btn:hover {
+  color: #fff !important;
+}
+
+/* ************************************* */
+/* PRICING SEC */
+/* ************************************* */
+
+.sec-price-heading {
+  font-size: 3.6rem;
+  text-align: left;
+  margin-bottom: 1rem !important;
+}
+
+.fsd-price {
+  margin-bottom: 1rem !important;
+  letter-spacing: 1.4px;
+  color: #fff;
+}
+
+.price-left-side,
+.price-right-side {
+  background-color: #2b2f8b;
+  color: #fff !important;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-small-box {
+  background-color: #b1bc55;
+  width: 80%;
+  padding: 5px;
+  border-radius: 5000px;
+  margin-bottom: 2rem;
+}
+
+.price-small-box p span {
+  margin-left: 5px;
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.price-small-box p i {
+  font-size: 1.4rem;
+  color: #333;
+  margin-left: 5px;
+}
+
+.fsd-price span {
+  font-size: 1.4rem;
+  letter-spacing: 1.4px;
+  font-weight: 400;
+}
+
+.min-emi p {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.over-view-con {
+  padding-bottom: 2rem;
+}
+
+.sma-line {
+  width: 90px;
+  margin-bottom: 2rem;
+  /* height: 20px; */
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+}
+
+.apply-btn {
+  padding: 0.2rem 5rem !important;
+  margin-top: 2.5rem;
+  background-color: #fff;
+  color: #2b2f8b;
+}
+
+.price-left-side {
+  position: relative;
+  overflow: hidden;
+}
+
+.fsd-price-sec::after {
+  content: "Full Stack Development";
+  font-size: 1.4rem;
+  font-weight: 700;
+  position: absolute;
+  top: 12%;
+  right: -18%;
+  color: #333;
+  /* background-color: #ffd43b; */
+  /* background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(249, 232, 51, 1) 0%,
+    rgba(250, 196, 59, 1) 100.2%
+  ); */
+  background-color: #f9ff60;
+  background-image: linear-gradient(315deg, #f9ff60 0%, #ffef77 74%);
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.jfs-price-sec::after {
+  content: "Java Full Stack Development";
+  font-size: 1.4rem;
+  font-weight: 700;
+  position: absolute;
+  top: 14%;
+  right: -18%;
+  color: #333;
+  background-color: #f9ff60;
+  background-image: linear-gradient(315deg, #f9ff60 0%, #ffef77 74%);
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.pfs-price-sec::after {
+  content: "Python Full Stack Development";
+  font-size: 1.4rem;
+  font-weight: 700;
+  position: absolute;
+  top: 17%;
+  right: -18%;
+  color: #333;
+  background-color: #f9ff60;
+  background-image: linear-gradient(315deg, #f9ff60 0%, #ffef77 74%);
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.ms-price-sec::after {
+  content: "Mern Stack Development";
+  font-size: 1.4rem;
+  font-weight: 700;
+  position: absolute;
+  top: 12%;
+  right: -18%;
+  color: #333;
+  background-color: #f9ff60;
+  background-image: linear-gradient(315deg, #f9ff60 0%, #ffef77 74%);
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+/* EMI and Table */
+
+table,
+th,
+td {
+  border: 1px solid rgba(43, 46, 139, 0.534);
+  border-collapse: collapse;
+}
+
+td {
+  font-weight: 500;
+}
+
+.price-right-side {
+  background-color: transparent !important;
+  color: #2b2f8b !important;
+  border: 5px solid #2b2f8b;
+}
+
+.price-left-contain .sma-line {
+  border-bottom: 1px solid #2b2f8b;
+}
+
+.price-right-side .sec-price-heading {
+  color: #2b2f8b;
+}
+
+.price-left-contain p {
+  margin: 1.5rem auto;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.emi-table {
+  width: 35rem;
+  height: 15rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.terms-head {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.terms-list {
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 500;
+  margin-left: 2rem;
+  color: #333;
+}
+
+/* Course List Page */
+
+.course-list-sec {
+  display: flex;
+  justify-content: center;
+}
+
+.course-list a {
+  text-decoration: none;
+}
+
+.course-list a li {
+  color: #2b2f8b;
+  cursor: pointer;
+
+  /* padding: 2rem 3rem; */
+}
+
+.course-list li {
+  border: 1px solid #333;
+  background-color: #f0f9ff;
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+}
+
+.course-list {
+  list-style: none;
+  text-align: center;
+  line-height: 1.4;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.course-list-container {
+  text-align: center;
+  display: inline-block;
+  margin-top: 2rem;
+}
